@@ -43,7 +43,7 @@ const CONTENT = {
             {
                 icon: "🎯",
                 title: "Sofort einsatzbereit",
-                text: "Dank professioneller Studioumgebung erhalten Sie Aufnahmen in Broadcast-Qualität – fertig gemastert, ohne zusätzliche Nachbearbeitung."
+                text: "Dank professioneller Studioumgebung erhalten Sie Aufnahmen in Broadcast-Qualität, fertig gemastert, ohne zusätzliche Nachbearbeitung."
             },
             {
                 icon: "🎭",
