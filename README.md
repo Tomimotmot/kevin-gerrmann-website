@@ -1,75 +1,68 @@
-# Kevin Gerrmann - Hörbuchsprecher & Voice Actor
+# Kevin Gerrmann - Hörbuchsprecher Website
 
 Portfolio-Website für Kevin Gerrmann, professioneller Hörbuchsprecher.
+
+**Live:** https://tomimotmot.github.io/kevin-gerrmann-website/
+
+---
+
+## TODO
+
+### Texte
+- [ ] Alle Texte in `content.js` durchgehen und finalisieren
+- [ ] Hero-Bereich: Untertitel anpassen?
+- [ ] Vorteile: Formulierungen prüfen
+- [ ] Über mich: Text mit Kevin abstimmen
+- [ ] Kontakt: E-Mail-Adresse bestätigen
+
+### Bilder
+- [ ] Portrait-Foto von Kevin → `assets/images/kevin-portrait.jpg`
+- [ ] Mikrofon-Foto → `assets/images/microphone.jpg`
+- [ ] Kopfhörer-Foto → `assets/images/headphones.jpg`
+- [ ] Social Media Preview (1200x630px) → `assets/images/og-image.jpg`
+- [ ] Favicon erstellen → `assets/favicon/`
+
+### Audio-Demos
+- [ ] Thriller-Demo → `assets/audio/demo-thriller.mp3`
+- [ ] Kinder-Demo → `assets/audio/demo-kinder.mp3`
+- [ ] Corporate-Demo → `assets/audio/demo-corporate.mp3`
+
+### Rechtliches
+- [ ] Impressum ausfüllen (Adresse, etc.)
+- [ ] Datenschutz: Kontaktdaten ergänzen
+
+### Domain
+- [ ] Domain kaufen/auswählen (z.B. kevin-gerrmann.de)
+- [ ] DNS-Einstellungen beim Domain-Anbieter:
+  - CNAME Record: `www` → `tomimotmot.github.io`
+  - A Records für Apex-Domain:
+    ```
+    185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
+    ```
+- [ ] CNAME-Datei im Repo erstellen mit Domain
+- [ ] GitHub Pages Custom Domain aktivieren
+- [ ] HTTPS erzwingen
+
+---
+
+## Texte bearbeiten
+
+Alle Texte sind in **`content.js`** - einfach dort bearbeiten, committen, fertig.
 
 ## Struktur
 
 ```
 ├── index.html          # Hauptseite
-├── css/
-│   └── styles.css      # Stylesheet
-├── js/
-│   └── main.js         # JavaScript
+├── content.js          # ALLE TEXTE HIER
+├── css/styles.css      # Styling
+├── js/main.js          # Funktionalität
 ├── assets/
-│   ├── images/         # Bilder (Portrait, Equipment)
-│   ├── audio/          # Audio-Demos (MP3)
+│   ├── images/         # Bilder
+│   ├── audio/          # Audio-Demos
 │   └── favicon/        # Favicons
-├── robots.txt          # SEO
-├── sitemap.xml         # SEO
-└── CNAME               # Custom Domain (GitHub Pages)
+├── impressum.html
+└── datenschutz.html
 ```
-
-## Setup
-
-### Bilder hinzufügen
-Lege folgende Dateien in `assets/images/`:
-- `kevin-portrait.jpg` - Portrait-Foto
-- `microphone.jpg` - Mikrofon-Foto
-- `headphones.jpg` - Kopfhörer-Foto
-- `og-image.jpg` - Social Media Preview (1200x630px)
-
-### Audio-Demos hinzufügen
-Lege folgende MP3-Dateien in `assets/audio/`:
-- `demo-thriller.mp3`
-- `demo-kinder.mp3`
-- `demo-corporate.mp3`
-
-### Favicon generieren
-Nutze [favicon.io](https://favicon.io/) um Favicons zu erstellen und lege sie in `assets/favicon/`.
-
-## Deployment auf GitHub Pages
-
-1. Repository auf GitHub erstellen
-2. Code pushen:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO.git
-   git push -u origin main
-   ```
-3. In Repository Settings → Pages → Source: "Deploy from a branch" → main
-4. Custom Domain einrichten (optional):
-   - CNAME-Datei mit Domain erstellen
-   - DNS bei Domain-Anbieter konfigurieren
-
-## Technologien
-
-- HTML5
-- CSS3 (Custom Properties, Grid, Flexbox)
-- Vanilla JavaScript (ES6+)
-- Google Fonts (Cormorant Garamond, Outfit)
-
-## Features
-
-- Responsive Design
-- SEO-optimiert (Meta-Tags, Schema.org, Open Graph)
-- Accessibility (ARIA-Labels, semantisches HTML)
-- Custom Audio-Player
-- Smooth Scrolling
-- Scroll-Animationen
-
-## Lizenz
-
-Alle Rechte vorbehalten © Kevin Gerrmann
