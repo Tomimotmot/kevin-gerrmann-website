@@ -162,7 +162,7 @@ const CONTENT = {
     // FOOTER
     // ==========================================================================
     footer: {
-        copyright: "© 2025 Kevin Gerrmann · Hörbuchsprecher & Voice Actor"
+        copyright: "© 2026 Kevin Gerrmann · Hörbuchsprecher & Voice Actor"
     }
 
 };
