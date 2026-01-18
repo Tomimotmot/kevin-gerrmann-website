@@ -1,0 +1,7 @@
+# robots.txt for kevin-gerrmann.de
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kevin-gerrmann.de/sitemap.xml
