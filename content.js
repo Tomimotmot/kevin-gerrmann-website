@@ -32,7 +32,7 @@ const CONTENT = {
     benefits: {
         pretitle: "Warum mit mir arbeiten",
         title: "Ihr Projekt in guten Händen",
-        intro: "Sie suchen eine Stimme, die Ihre Geschichte trägt – und einen Partner, auf den Sie sich verlassen können. Hier erfahren Sie, was eine Zusammenarbeit mit mir auszeichnet.",
+        intro: "Sie suchen eine Stimme, die Ihre Geschichte trägt, und einen Partner, auf den Sie sich verlassen können. Hier erfahren Sie, was eine Zusammenarbeit mit mir auszeichnet.",
 
         items: [
             {
@@ -48,7 +48,7 @@ const CONTENT = {
             {
                 icon: "🎭",
                 title: "Wandelbare Stimme",
-                text: "Vom packenden Thriller-Erzähler über lebendige Kinderstimmen bis zum seriösen Unternehmenston – ich finde den Klang, der zu Ihrem Projekt passt."
+                text: "Vom packenden Thriller-Erzähler über lebendige Kinderstimmen bis zum seriösen Unternehmenston, ich finde den Klang, der zu Ihrem Projekt passt."
             },
             {
                 icon: "🌐",
@@ -58,7 +58,7 @@ const CONTENT = {
             {
                 icon: "✓",
                 title: "Zuverlässige Umsetzung",
-                text: "Briefing verstanden, Termin gehalten, Qualität geliefert. Sie erhalten genau das, was wir besprochen haben – ohne Überraschungen."
+                text: "Briefing verstanden, Termin gehalten, Qualität geliefert. Sie erhalten genau das, was wir besprochen haben, ohne Überraschungen."
             },
             {
                 icon: "↻",
@@ -77,21 +77,21 @@ const CONTENT = {
 
         items: [
             {
-                category: "Hörbuch – Thriller",
+                category: "Hörbuch, Thriller",
                 duration: "1:42",
                 title: "»Stille Wasser«",
                 description: "Spannungsgeladene Erzählung mit düsterer Atmosphäre. Packend vorgetragen, um den Hörer in den Bann zu ziehen.",
                 audioFile: "assets/audio/demo-thriller.mp3"
             },
             {
-                category: "Hörspiel – Kinder",
+                category: "Hörspiel, Kinder",
                 duration: "1:18",
                 title: "»Finn und der Wolkenfuchs«",
                 description: "Lebendige Charakterstimmen für junge Hörer. Warmherzig, fantasievoll und mit Liebe zum Detail gesprochen.",
                 audioFile: "assets/audio/demo-kinder.mp3"
             },
             {
-                category: "Imagefilm – Marketing",
+                category: "Imagefilm, Marketing",
                 duration: "0:52",
                 title: "Corporate Voice",
                 description: "Professionell, vertrauenswürdig und überzeugend. Die Stimme für Ihr Unternehmen.",
@@ -108,7 +108,7 @@ const CONTENT = {
         title: "Eine Stimme, die Geschichten zum Leben erweckt",
 
         paragraphs: [
-            "Als professioneller Hörbuchsprecher bringe ich Texte zum Klingen. Ob packende Thriller, zauberhafte Kinderhörspiele oder überzeugende Unternehmensfilme – ich finde den richtigen Ton für Ihr Projekt.",
+            "Als professioneller Hörbuchsprecher bringe ich Texte zum Klingen. Ob packende Thriller, zauberhafte Kinderhörspiele oder überzeugende Unternehmensfilme, ich finde den richtigen Ton für Ihr Projekt.",
             "Mit meinem professionellen Home-Studio bin ich flexibel und kurzfristig für Ihre Produktionen verfügbar. Remote-Regie ist selbstverständlich möglich."
         ],
 
@@ -128,19 +128,19 @@ const CONTENT = {
             {
                 brand: "Neumann",
                 name: "TLM 103",
-                description: "Das Großmembran-Kondensatormikrofon aus dem Hause Neumann – der Industriestandard für kristallklare Sprachaufnahmen in Broadcast-Qualität.",
+                description: "Das Großmembran-Kondensatormikrofon aus dem Hause Neumann, der Industriestandard für kristallklare Sprachaufnahmen in Broadcast-Qualität.",
                 image: "assets/images/microphone.jpg"
             },
             {
                 brand: "Beyerdynamic",
                 name: "DT 770 Pro",
-                description: "Geschlossener Studiokopfhörer für präzises Monitoring. Damit höre ich genau das, was später bei Ihnen ankommt – bis ins kleinste Detail.",
+                description: "Geschlossener Studiokopfhörer für präzises Monitoring. Damit höre ich genau das, was später bei Ihnen ankommt, bis ins kleinste Detail.",
                 image: "assets/images/headphones.jpg"
             },
             {
                 brand: "Home Studio",
                 name: "Eigene Sprecherkabine",
-                description: "Professionell gedämmt und akustisch optimiert für störungsfreie Aufnahmen ohne Raumhall. Studioqualität direkt zu Ihnen – ohne Kompromisse.",
+                description: "Professionell gedämmt und akustisch optimiert für störungsfreie Aufnahmen ohne Raumhall. Studioqualität direkt zu Ihnen, ohne Kompromisse.",
                 image: null,
                 icon: "🏠"
             }
